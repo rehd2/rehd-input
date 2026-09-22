@@ -1,0 +1,57 @@
+{
+  "name": "rehd-input",
+  "version": "1.0.2",
+  "description": "A customizable interactive terminal/cli text input prompt with 2D navigation, custom token highlighting and full width background styling.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "assets"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "terminal",
+    "cli",
+    "input",
+    "prompt",
+    "interactive",
+    "multiline",
+    "customizable",
+    "history",
+    "highlight",
+    "chalk",
+    "terminal-input",
+    "readline",
+    "node",
+    "typescript"
+  ],
+  "author": "Rehd",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "ansi-escapes": "^7.3.0",
+    "chalk": "^6.0.0",
+    "string-width": "^8.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^5.8.3"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehd2/rehd-input.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rehd2/rehd-input/issues"
+  },
+  "homepage": "https://github.com/rehd2/rehd-input#readme"
+}
